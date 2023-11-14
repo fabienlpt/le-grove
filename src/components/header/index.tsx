@@ -5,10 +5,6 @@ import './style.css';
 const Header: React.FC = () => {
     const [current, setCurrent] = React.useState<string>(window.location.pathname);
 
-    React.useEffect(() => {
-        setCurrent(window.location.pathname);
-    });
-
     return (
         <div className="header">
             <NavButton to="/" label="Home" current={current} setCurrent={setCurrent} />
