@@ -1,0 +1,29 @@
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header a {
+    color: #333;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.header a:hover {
+    color: #1890ff;
+}
+
+.active {
+    background-color: #eee;
+    color: #1890ff;
+}
