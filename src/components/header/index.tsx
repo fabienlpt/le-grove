@@ -1,7 +1,7 @@
 import React from 'react';
 import NavButton from './navButton';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 import './style.css';
 
 const Header: React.FC = () => {
@@ -23,7 +23,7 @@ const Header: React.FC = () => {
                 <nav className={"navbar " + (menuOpen ? "open" : "")}>
                     <NavButton to="/" label="Home" current={current} setCurrent={setCurrent} />
                     <NavButton to="/missions" label="Missions" current={current} setCurrent={setCurrent} />
-                    <NavButton to="/" label="About" current={current} setCurrent={setCurrent} className="logo">
+                    <NavButton to="/" label="Home" current={current} setCurrent={setCurrent} className="logo">
                         <svg xmlns="http://www.w3.org/2000/svg" width="144" height="110" viewBox="0 0 144 110" fill="none">
                             <g clip-path="url(#clip0_16_727)">
                                 <path d="M56.54 52.35L68.22 52.11L66.55 30.7C66.52 28.44 66.81 26.53 67.43 24.97C68.05 23.41 68.98 22.2 70.22 21.33C71.46 20.46 72.99 19.94 74.8 19.76C75.52 19.69 76.32 19.68 77.22 19.74C78.12 19.8 78.99 19.98 79.84 20.28L79.12 7.90998C78.43 7.78998 77.82 7.72998 77.29 7.72998C76.76 7.72998 76.26 7.75998 75.78 7.80998C73.34 8.04998 71.32 8.70998 69.72 9.77998C68.11 10.86 66.96 12.45 66.25 14.57C65.54 16.69 65.19 19.49 65.2 22.96L63.84 23.09L62.33 9.99998L52.87 10.93L54.84 30.85L56.54 52.35Z" fill="#144D3A" stroke="#144D3A" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
@@ -55,7 +55,7 @@ const Header: React.FC = () => {
                     <NavButton to="/doc" label="Documentation" current={current} setCurrent={setCurrent} />
                     <NavButton to="/contact" label="Contact" current={current} setCurrent={setCurrent} />
                     <button className="nav-button" onClick={() => setMenuOpen(!menuOpen)}>
-                        <FontAwesomeIcon icon={faBars} />
+                        <FontAwesomeIcon icon={menuOpen ? faTimes : faBars} />
                     </button>
                 </nav>
             </div>
