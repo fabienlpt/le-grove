@@ -4,6 +4,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './index.css';
 import Header from './components/header';
+import Footer from './components/footer';
 import Home from './pages/home';
 import Documentation from './pages/documentation';
 import Agenda from './pages/agenda';
@@ -25,6 +26,7 @@ root.render(
         <Route path="/contact" element={<Contact/>} />
         <Route path="/missions" element={<Missions/>} />
       </Routes>
+      <Footer/>
 		</BrowserRouter>
 	</React.StrictMode>
 );
