@@ -7,15 +7,19 @@ interface NavButtonProps {
     label: string;
     current: string;
     setCurrent(current: string): void;
+    className?: string;
+    children?: React.ReactNode;
 }
 
-const NavButton: React.FC<NavButtonProps> = ({ to, label, current, setCurrent }) => {
+const NavButton: React.FC<NavButtonProps> = ({ to, label, current, setCurrent, children, className = "" }) => {
     return (
         <Link to={to}
-            className={current === to ? 'active' : ''}
+            className={className ? className : current === to ? 'active' : '' + ' ' }
             onClick={() => setCurrent(to)}
         >
-            {label}
+            {
+                children ? children : label
+            }
         </Link>
     );
 }

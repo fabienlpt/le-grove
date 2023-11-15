@@ -1,0 +1,24 @@
+:root {
+    --color_primary: #144D3A; 
+    --color_secondary: #C5FACC;
+    --color_tertiary: #FFB537;
+    --color_quatinary: #F9F2DE;
+  }
+
+.footer {
+    background-color: var(--color_primary);
+    color: var(--color_secondary)
+}
+
+.first_bloc_footer {
+    display: flex;
+}
+.first_bloc_footer p {
+    display: flex;
+    font-size: 48px;
+}
+
+.style_responsable {
+    background-color: var(--color_tertiary);
+    border-radius: 30px;
+}
