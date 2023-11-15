@@ -1,7 +1,7 @@
 .sidebar {
     position: relative;
-    margin-top: 61px;
-    background-color: #eee;
+    margin-top: 200px;
+    background-color: #F9F2DE;
     border-right: 1px solid #aaa;
     height: 100%;
     padding-left: 20px;
@@ -15,6 +15,14 @@
     @media screen and (min-width: 768px) {
         transform: translateX(0);
     }
+}
+
+.sidebar::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
 }
 
 .sidebar-open {
