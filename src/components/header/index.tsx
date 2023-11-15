@@ -1,7 +1,7 @@
 import React from 'react';
 import NavButton from './navButton';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 import './style.css';
 
 const Header: React.FC = () => {
@@ -55,7 +55,7 @@ const Header: React.FC = () => {
                     <NavButton to="/doc" label="Documentation" current={current} setCurrent={setCurrent} />
                     <NavButton to="/contact" label="Contact" current={current} setCurrent={setCurrent} />
                     <button className="nav-button" onClick={() => setMenuOpen(!menuOpen)}>
-                        <FontAwesomeIcon icon={faBars} />
+                        <FontAwesomeIcon icon={menuOpen ? faTimes : faBars} />
                     </button>
                 </nav>
             </div>
