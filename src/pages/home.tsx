@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home: React.FC = () => {
     return (
-        <div>
+        <div className='page-container'>
             {/* TODO: PRIO 1 */}
             Home page
         </div>

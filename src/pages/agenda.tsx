@@ -2,7 +2,7 @@ import React from 'react';
 
 const Agenda: React.FC = () => {
     return (
-        <div>
+        <div className='page-container'>
             {/* TODO: PRIO 2 */}
             agenda page
         </div>
