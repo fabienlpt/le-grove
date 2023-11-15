@@ -8,20 +8,33 @@
     z-index: 1000;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .header a {
-    color: #333;
+    background-color: #144D3A;
+    color: #C5FACC;
     font-size: 16px;
     text-decoration: none;
-    padding: 0 20px;
+    border-radius: 23px;
+    width: 140px;
+    height: 35px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header a:hover {
-    color: #1890ff;
+    background-color: #C5FACC;
+    color: #144D3A;
 }
 
-.active {
-    background-color: #eee;
-    color: #1890ff;
+/* if .active add "." like list before text */
+.header a.active::before {
+    content: ".";
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+    padding-bottom: 10px;
 }
