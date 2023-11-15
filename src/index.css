@@ -19,3 +19,10 @@ code {
   background-color: #F9F2DE;
   height: 100vh;
 }
+
+:root {
+  --color_primary: #144D3A; 
+  --color_secondary: #C5FACC;
+  --color_tertiary: #FFB537;
+  --color_quatinary: #F9F2DE;
+}

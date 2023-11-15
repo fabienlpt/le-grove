@@ -5,7 +5,7 @@ const Footer: React.FC = () => {
     return (
         <div>
             <div className="footer">
-                <div className="first_bloc_footer">
+                <div>
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="144" height="110" viewBox="0 0 144 110" fill="none">
                             <g clip-path="url(#clip0_16_727)">
@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
                         </svg>
                     </div>
                     <div>
-                        <p> le guide  <span className="style_responsable"> responsable  </span> de l’organisation verte évènementielle.</p>
+                        <p> le guide <span className="style_responsable"> responsable </span> de l’organisation verte évènementielle.</p>
                     </div>
                 </div>
             </div>
