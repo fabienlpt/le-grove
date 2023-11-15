@@ -2,7 +2,7 @@ import React from 'react';
 import NavButton from './navButton';
 import './style.css';
 
-const navbar: React.FC = () => {
+const Header: React.FC = () => {
     const [current, setCurrent] = React.useState<string>(window.location.pathname);
 
     return (
@@ -44,4 +44,4 @@ const navbar: React.FC = () => {
     );
 }
 
-export default navbar;
+export default Header;
