@@ -4,6 +4,7 @@ const Agenda: React.FC = () => {
     return (
         <div>
             {/* TODO: PRIO 2 */}
+            agenda page
         </div>
     );
 }

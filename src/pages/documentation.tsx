@@ -4,6 +4,7 @@ const Documentation: React.FC = () => {
     return (
         <div>
             {/* TODO: PRIO 1 */}
+            documentation page
         </div>
     );
 }

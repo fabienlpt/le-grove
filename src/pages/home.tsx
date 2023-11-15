@@ -4,6 +4,7 @@ const Home: React.FC = () => {
     return (
         <div>
             {/* TODO: PRIO 1 */}
+            home page
         </div>
     );
 }

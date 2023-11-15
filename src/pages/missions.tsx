@@ -4,6 +4,7 @@ const Missions: React.FC = () => {
     return (
         <div>
             {/* TODO: PRIO 1 */}
+            missions page
         </div>
     );
 }

@@ -4,6 +4,7 @@ const Contact: React.FC = () => {
     return (
         <div>
             {/* TODO: PRIO 1 */}
+            contact page
         </div>
     );
 }
