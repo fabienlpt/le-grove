@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import NavButton from '../header/navButton';
+import NavButton from '../navButton';
 
 const Footer: React.FC = () => {
     const [current, setCurrent] = React.useState<string>(window.location.pathname);
@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
             <div className="footer">
                 <div className="first_bloc_footer">
                     <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="25vw" viewBox="0 0 144 110" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18vw" viewBox="0 0 144 110" fill="none">
                             <g clip-path="url(#clip0_16_727)">
                                 <path d="M56.54 52.35L68.22 52.11L66.55 30.7C66.52 28.44 66.81 26.53 67.43 24.97C68.05 23.41 68.98 22.2 70.22 21.33C71.46 20.46 72.99 19.94 74.8 19.76C75.52 19.69 76.32 19.68 77.22 19.74C78.12 19.8 78.99 19.98 79.84 20.28L79.12 7.90998C78.43 7.78998 77.82 7.72998 77.29 7.72998C76.76 7.72998 76.26 7.75998 75.78 7.80998C73.34 8.04998 71.32 8.70998 69.72 9.77998C68.11 10.86 66.96 12.45 66.25 14.57C65.54 16.69 65.19 19.49 65.2 22.96L63.84 23.09L62.33 9.99998L52.87 10.93L54.84 30.85L56.54 52.35Z" fill="#144D3A" stroke="#144D3A" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" />
                                 <path d="M74.68 38.8699C74.68 43.7599 75.59 47.8399 77.4 51.0999C78.85 53.6999 80.75 55.7799 83.08 57.3499C83.5 57.6299 84.06 57.3899 84.19 56.91L84.36 56.2499C84.52 55.6199 84.99 55.2599 85.53 55.2599H98.48C99.28 55.2599 99.84 56.0399 99.59 56.7899L98.63 59.74C98.47 60.24 98.87 60.76 99.4 60.7C102.18 60.3899 104.75 59.68 107.12 58.56C110.38 57.01 112.96 54.5999 114.85 51.34C116.74 48.08 117.69 43.9499 117.69 38.9499C117.69 33.9499 116.78 29.9899 114.97 26.7599C113.15 23.5199 110.63 21.0899 107.4 19.4599C104.16 17.8299 100.42 17.0099 96.16 17.0099C91.9 17.0099 88.3 17.8099 85.03 19.4199C81.77 21.0299 79.23 23.4399 77.42 26.6799C75.61 29.9199 74.7 33.9799 74.7 38.8699H74.68ZM96.46 51.6499C94.19 51.6499 92.34 50.9399 90.87 49.5499H102.02C101.75 49.8299 101.46 50.0799 101.15 50.2999C99.91 51.2 98.35 51.6399 96.45 51.6399L96.46 51.6499ZM95.83 26.7199C97.88 26.7199 99.56 27.2299 100.88 28.2599C100.93 28.2999 100.98 28.3499 101.03 28.3999H90.87C91 28.2899 91.12 28.1699 91.26 28.0699C92.52 27.1799 94.05 26.7299 95.84 26.7299L95.83 26.7199ZM88.41 32.0899C88.67 31.3599 88.99 30.7199 89.36 30.1399V47.65C88.1 45.5 87.46 42.5299 87.46 38.7199C87.46 36.09 87.78 33.8799 88.41 32.0899Z" fill="#144D3A" stroke="#144D3A" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" />
@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
                         </svg>
                     </div>
                     <div>
-                        <p className="footer_cita"> le Guide <span className="style_responsable"> Responsable </span> de l’Organisation Verte <span className="style_event"> Evènementielle.  </span> </p>
+                        <p className="footer_cita"> le  Guide  <span className="style_responsable">  Responsable  </span>  de  l’Organisation  Verte &nbsp; &nbsp; <span className="style_event">  Evènementielle.  </span> </p>
                     </div>
                 </div>
                 <div className="second_bloc_footer">
@@ -48,9 +48,9 @@ const Footer: React.FC = () => {
                         <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512"><style></style><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg>
                     </div>
                     <div className="onglets">
-                        <NavButton to="/missions" label="nos missions" current={current} setCurrent={setCurrent} className="missions" />
-                        <NavButton to="/doc" label="nos ressources" current={current} setCurrent={setCurrent} className="doc" />
-                        <NavButton to="/contact" label="contact" current={current} setCurrent={setCurrent} className="contact" />
+                        <NavButton to="/missions" label="nos missions" current={current} setCurrent={setCurrent} withPin={false} className="missions" />
+                        <NavButton to="/doc" label="nos ressources" current={current} setCurrent={setCurrent} withPin={false} className="doc" />
+                        <NavButton to="/contact" label="contact" current={current} setCurrent={setCurrent} withPin={false} className="contact" />
                     </div>
                 </div>
             </div>
