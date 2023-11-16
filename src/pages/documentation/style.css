@@ -1,4 +1,38 @@
-.doc-page {
-    position: relative;
-    z-index: -1;
+.content {
+    margin-left: 30vw;
+    padding: 0 50px;
+    padding-bottom: 50px;
+}
+
+.content .title {
+    color: var(--bg1, #144D3A);
+    font-family: Bricolage Grotesque 48pt;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 54px */
+}
+
+.content .description, .content .conclusion {
+    color: #1E1E1E;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.368px;
+}
+
+.content .description p {
+    margin-bottom: 20px;
+}
+
+.parent-element {
+    color: var(--bg1, #144D3A);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    text-transform: uppercase;
 }
