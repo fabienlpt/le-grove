@@ -1,3 +1,7 @@
+.template {
+    margin-bottom: 30px;
+}
+
 .template-list {
     display: flex;
     flex-direction: column;
