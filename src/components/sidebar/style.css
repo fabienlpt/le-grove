@@ -1,5 +1,5 @@
 .sidebar {
-    margin-top: 140px;
+    margin-top: 130px;
     background-color: #F9F2DE;
     border-right: 1px solid #aaa;
     height: 100%;
@@ -9,7 +9,7 @@
     top: 0;
     width: 25vw;
     z-index: 1;
-    transform: translateX(-190px);
+    transform: translateX(-24vw);
     transition: transform 0.3s ease-in-out;
     @media screen and (min-width: 768px) {
         transform: translateX(0);
