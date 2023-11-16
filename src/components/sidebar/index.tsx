@@ -19,6 +19,15 @@ interface SideBarProps {
 const SideBar: React.FC<SideBarProps> = ({ sidebar, current, setCurrent }) => {
     const [isOpen, setIsOpen] = React.useState(false);
 
+    React.useEffect(() => {
+        var sidebar = document.querySelector('.sidebar') as HTMLElement;
+        if (window.scrollY > 100) {
+            sidebar.style.position = 'absolute';
+            sidebar.style.marginTop = '0px';
+        }
+    }, []);
+
+
     window.addEventListener('scroll', function() {
         var sidebar = document.querySelector('.sidebar') as HTMLElement;
         var docPage = document.querySelector('.doc-page');
