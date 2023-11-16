@@ -1,11 +1,12 @@
 import React from 'react';
-import SideBar from '../components/sidebar';
+import SideBar from '../../components/sidebar';
+import './style.css';
 
 const Documentation: React.FC = () => {
     return (
-        <div className='page-container'>
+        <div className='page-container doc-page'>
             {/* TODO: PRIO 1 */}
-            documentation page
+            {/* documentation page */}
             <SideBar />
         </div>
     );
