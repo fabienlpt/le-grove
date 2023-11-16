@@ -42,7 +42,7 @@ const SideBar: React.FC<SideBarProps> = ({ sidebar, current, setCurrent }) => {
     return (
         <div className={`sidebar ${isOpen ? 'sidebar-open' : ''}`}>
             <ul>
-                {sidebar.map((item, index) => {
+                {sidebar?.map((item, index) => {
                     return (
                         <li key={index}>
                             <p className='sidebar-title'>{item.title}</p>
