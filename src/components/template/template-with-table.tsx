@@ -8,7 +8,7 @@ interface TemplateWithTableProps {
 const TemplateWithTable: React.FC<TemplateWithTableProps> = (props) => {
     return (
         <div className='template'>
-            ceci est un tableau
+            
         </div>
     );
 }
