@@ -6,6 +6,7 @@ import './style.css';
 
 const SideBar: React.FC = () => {
     const [isOpen, setIsOpen] = React.useState(false);
+    const [current, setCurrent] = React.useState(sidebar[0].children[0].slug);
 
     return (
         <div className={`sidebar ${isOpen ? 'sidebar-open' : ''}`}>
@@ -13,13 +14,13 @@ const SideBar: React.FC = () => {
                 {sidebar.map((item, index) => {
                     return (
                         <li key={index}>
-                            <a href={`#${item.slug}`}>{item.title}</a>
+                            <p className='sidebar-title'>{item.title}</p>
                             {item.children && (
                                 <ul>
                                     {item.children.map((child, index) => {
                                         return (
-                                            <li key={index}>
-                                                <a href={`#${child.slug}`}>{child.title}</a>
+                                            <li key={index}  className={`sidebar-subtitle ${child.slug === current ? 'current' : ''}`}>
+                                                <a href={`#${child.slug}`} onClick={() => setCurrent(child.slug)}>{child.title}</a>
                                             </li>
                                         );
                                     })}

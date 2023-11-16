@@ -1,6 +1,5 @@
 .sidebar {
-    position: relative;
-    margin-top: 200px;
+    margin-top: 140px;
     background-color: #F9F2DE;
     border-right: 1px solid #aaa;
     height: 100%;
@@ -8,8 +7,8 @@
     position: fixed;
     left: 0;
     top: 0;
-    width: 180px;
-    z-index: 1000;
+    width: 25vw;
+    z-index: 1;
     transform: translateX(-190px);
     transition: transform 0.3s ease-in-out;
     @media screen and (min-width: 768px) {
@@ -19,7 +18,6 @@
 
 .sidebar::after {
     content: "";
-    position: absolute;
     top: 0;
     right: 0;
     width: 20px;
@@ -27,6 +25,24 @@
 
 .sidebar-open {
     transform: translateX(0);
+}
+
+.sidebar-title {
+    color: var(--bg1, #144D3A);
+    font-family: Bricolage Grotesque 48pt;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+}
+
+.sidebar-subtitle {
+    color: var(--bg1, #144D3A);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
 }
 
 .sidebar .sidebar-toggle {
@@ -64,16 +80,17 @@
     text-decoration: none;
 }
 
-.sidebar ul li a:hover {
-    color: #1890ff;
-}
-
-.sidebar ul li ul {
-    margin-left: 20px;
-}
 
 .sidebar ul li ul li {
+    padding: 0 20px;
     margin-bottom: 0;
+    width: fit-content;
+    margin-right: 10px;
+}
+
+.current {
+    background-color: #C5FACC;
+    border-radius: 30px;
 }
 
 .sidebar ul li ul li a {
@@ -81,6 +98,6 @@
 }
 
 .sidebar ul li ul li a:hover {
-    color: #1890ff;
+    font-weight: 600;
 }
 
