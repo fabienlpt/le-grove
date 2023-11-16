@@ -14,13 +14,14 @@
     display: flex;
     justify-content: space-between;
     margin: 0 10vw;
-    padding: 4vw 0 0 0;
+    padding: 2vw 0 0 0;
     border-bottom: solid #C5FACC;
     border-width: 1px;
+    height: 15vw;
 }
 .footer_cita {
-    font-size: 3.5vw;
-    width: 40vw ;
+    font-size: 2.5vw;
+    width: 30vw ;
     margin-top: 0;
 }
 
@@ -45,13 +46,12 @@
 
 .style_event {
     background-image: url(../../../public/Union.svg);
-    background-size: 30vw;
+    background-size: 20vw;
     background-position-y: -0.015em;
     background-repeat: no-repeat;
     width: 35vw;
     height: 8vw;
     display: inline-block;
-
     color: #144D3A;
     margin-left: -2vw;
     padding-left : 2vw;
@@ -69,10 +69,16 @@
     
 }
 
-/* .onglets a {
-    transition: transform 2s ease-in-out;
+.onglets {
+    display: flex;
+    flex-direction: row;
 }
 
-.onglets a :hover {
-    transform: rotate(30deg);
-} */
+.onglets a {
+    transition: transform 0.3s ease-in-out;
+}
+
+.onglets a:hover {
+    transform: rotate(-20deg);
+    transition: transform 0.3s ease-in-out;
+}

@@ -1,108 +1,62 @@
+// make all slug short
 export const sidebar = [
     {
-        title: 'Getting Started',
+        title: 'débuter l\'organisation',
         slug: 'getting-started',
         children: [
-        {
-            title: 'Introduction',
-            slug: 'introduction',
-        },
-        {
-            title: 'Installation',
-            slug: 'installation',
-        },
-        {
-            title: 'Configuration',
-            slug: 'configuration',
-        },
-        {
-            title: 'Usage',
-            slug: 'usage',
-        },
+            {
+                title: 'Identifier les enjeux écoresponsables dans l\'organisation d\'un événement',
+                slug: 'identifier-enjeux',
+
+            },
+            {
+                title: 'Gérer un événement physique',
+                slug: 'evenement-physique',
+            },
+            {
+                title: 'Gérer un événement numérique',
+                slug: 'evenement-numerique',
+            },
         ],
     },
     {
-        title: 'Components',
-        slug: 'components',
+        title: 'les points de la norme',
+        slug: 'points-norme',
         children: [
-        {
-            title: 'Alert',
-            slug: 'alert',
-        },
-        {
-            title: 'Badge',
-            slug: 'badge',
-        },
-        {
-            title: 'Button',
-            slug: 'button',
-        },
-        {
-            title: 'Card',
-            slug: 'card',
-        },
-        {
-            title: 'Checkbox',
-            slug: 'checkbox',
-        },
-        {
-            title: 'Dropdown',
-            slug: 'dropdown',
-        },
-        {
-            title: 'Input',
-            slug: 'input',
-        },
-        {
-            title: 'Modal',
-            slug: 'modal',
-        },
-        {
-            title: 'Radio',
-            slug: 'radio',
-        },
-        {
-            title: 'Select',
-            slug: 'select',
-        },
-        {
-            title: 'Switch',
-            slug: 'switch',
-        },
-        {
-            title: 'Tabs',
-            slug: 'tabs',
-        },
-        {
-            title: 'Textarea',
-            slug: 'textarea',
-        },
+            {
+                title: 'partenaires écoresponsables',
+                slug: 'partenaires-ecoresponsables',
+            },
+            {
+                title: 'transports & logements',
+                slug: 'transports-logements',
+            },
+            {
+                title: 'restauration',
+                slug: 'restauration',
+            },
+            {
+                title: 'gérer les déchets',
+                slug: 'gerer-dechets',
+            },
+            {
+                title: 'les goodies',
+                slug: 'goodies',
+            },
+            {
+                title: 'les équipements',
+                slug: 'equipements',
+            },
+            {
+                title: 'communication',
+                slug: 'communication',
+            },
         ],
     },
     {
-        title: 'Directives',
-        slug: 'directives',
+        title: 'nos checklists',
+        slug: 'checklists',
         children: [
-        {
-            title: 'Click Outside',
-            slug: 'click-outside',
-        },
-        {
-            title: 'Focus',
-            slug: 'focus',
-        },
-        {
-            title: 'Hover',
-            slug: 'hover',
-        },
-        {
-            title: 'Intersection',
-            slug: 'intersection',
-        },
-        {
-            title: 'Resize',
-            slug: 'resize',
-        },
         ],
     },
 ];
