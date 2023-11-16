@@ -18,7 +18,8 @@ code {
 .page-container {
   background-color: #F9F2DE;
   min-height: 100vh;
-} 
+  padding-top: 50px;
+}
 
 :root {
   --color_primary: #144D3A; 
@@ -27,5 +28,7 @@ code {
   --color_quatinary: #F9F2DE;
 }
 
-* {   padding: 0;
-  margin: 0;}
+* {   
+  padding: 0;
+  margin: 0;
+}

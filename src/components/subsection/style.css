@@ -1,0 +1,38 @@
+.subsection {
+    width: 90%;
+    padding: 10px 0;
+    flex-shrink: 0;
+    color: #144D3A;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.46px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: 1px solid var(--bg1, #144D3A);
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.subsection-current {
+    color: var(--bg3, #C5FACC);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    letter-spacing: -0.368px;
+    background: #144D3A;
+}
+
+.subsection button {
+    border: none;
+    background: none;
+    position: absolute;
+    top: 0;
+    right: 20px;
+}

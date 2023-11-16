@@ -1,4 +1,3 @@
-// make all slug short
 export const sidebar = [
     {
         title: 'débuter l\'organisation',
@@ -7,7 +6,6 @@ export const sidebar = [
             {
                 title: 'Identifier les enjeux écoresponsables dans l\'organisation d\'un événement',
                 slug: 'identifier-enjeux',
-
             },
             {
                 title: 'Gérer un événement physique',

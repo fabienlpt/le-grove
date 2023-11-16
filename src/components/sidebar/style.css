@@ -1,5 +1,5 @@
 .sidebar {
-    margin-top: 130px;
+    margin-top: 160px;
     background-color: #F9F2DE;
     border-right: 1px solid #aaa;
     height: 100%;
@@ -43,6 +43,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: 150%;
+    margin-bottom: 20px;
 }
 
 .sidebar .sidebar-toggle {
