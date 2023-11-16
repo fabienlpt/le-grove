@@ -1,4 +1,78 @@
+:root {
+    --color_primary: #144D3A; 
+    --color_secondary: #C5FACC;
+    --color_tertiary: #FFB537;
+    --color_quatinary: #F9F2DE;
+  }
+
 .footer {
     background-color: var(--color_primary);
-    width: 100%;
+    color: var(--color_secondary)
 }
+
+.first_bloc_footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10vw;
+    padding: 2vw 0 0 0;
+    border-bottom: solid #C5FACC;
+    border-width: 1px;
+    height: 15vw;
+}
+.footer_cita {
+    font-size: 2.5vw;
+    width: 30vw ;
+    margin-top: 0;
+}
+
+.style_responsable {
+    background-color: var(--color_tertiary);
+    border-radius: 50px;
+    color: var(--color_primary);
+}
+
+.second_bloc_footer svg {
+    fill: #C5FACC;
+    width: 3vw;
+    padding-right: 2vw;
+}
+
+.second_bloc_footer {
+    margin: 5% 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.style_event {
+    background-image: url(../../../public/Union.svg);
+    background-size: 20vw;
+    background-position-y: -0.015em;
+    background-repeat: no-repeat;
+    width: 35vw;
+    height: 8vw;
+    display: inline-block;
+    color: #144D3A;
+    margin-left: -2vw;
+    padding-left : 2vw;
+}
+
+.contact, .doc, .missions {
+    border: solid var(--color_secondary);
+    color:#F9F2DE;
+    text-decoration: none;
+    border-width: 1px;
+    border-radius: 30px;
+    padding: 1vw 2vw;
+    margin-left: 2vw;
+ 
+    
+}
+
+/* .onglets a {
+    transition: transform 2s ease-in-out;
+}
+
+.onglets a :hover {
+    transform: rotate(30deg);
+} */
