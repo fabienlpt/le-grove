@@ -44,7 +44,7 @@
 
 .bloc_vert {
     background-color: #144D3A;
-    font-size: 0.8vw;
+    font-size: 1vw;
     border-radius: 10px;
     width: 33vw;
     display: flex;
@@ -182,7 +182,7 @@
 
 .bloc_two_vert {
     background-color: #144D3A;
-    font-size: 0.8vw;
+    font-size: 2vw;
     border-radius: 10px;
     width: 40vw;
     height: 20vw;

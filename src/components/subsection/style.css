@@ -1,6 +1,6 @@
 .subsection {
     width: 90%;
-    padding: 10px 0;
+    padding: 30px;
     flex-shrink: 0;
     color: #144D3A;
     font-family: Poppins;
@@ -33,6 +33,10 @@
     border: none;
     background: none;
     position: absolute;
-    top: 0;
+    top: 10px;
     right: 20px;
+}
+
+.subsection-content p {
+    margin-top: 15px;
 }
