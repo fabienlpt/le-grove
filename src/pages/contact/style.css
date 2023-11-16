@@ -1,0 +1,107 @@
+.contactez {
+    background-image: url(../../../public/Union.svg);
+    background-size: 25vw;
+    background-position-y: 0.1em;
+    background-repeat: no-repeat;
+    width: 35vw;
+    display: inline-block;
+    margin-left: -2vw;
+    padding-left: 2vw;
+    font-size: 4vw;
+    height: 6vw;
+}
+
+.nous {
+    background-image: url(../../../public/Union-2.svg);
+    background-size: 12vw;
+    background-position-y: 0.15em;
+    background-repeat: no-repeat;
+    width: 35vw;
+    display: inline-block;
+    margin-left: -2vw;
+    padding-left: 2vw;
+    font-size: 4vw;
+    height: 7vw;
+    margin-top: -2vw;
+}
+
+.page-container {
+    width: 100%;
+}
+
+.bloc_flex {
+    display: flex;
+    justify-content: center;
+    padding: 0 10vw;
+    padding-top: 3vw;
+    flex-wrap: wrap;
+}
+
+.tel input {
+    background-image: url(../../../public/Component\ 1.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 18px;
+    background-size: 2vw;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+}
+form div {
+margin-bottom: 1vw;
+}
+.nom div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nom input {
+    width: 12vw;
+}
+.tel, .message {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox input {
+    width: 1vw;
+    margin-right: 0.5vw;
+}
+input {
+    height: 3vw;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: var(--color_primary);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.button input {
+    background-image: url(../../../public/Group.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 2px;
+    background-size: 2vw;
+    width: 8vw;
+    background-color: #FFB537;
+    border: none;
+    color: var(--color_primary);
+text-align: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    width: 24vw;
+}
