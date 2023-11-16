@@ -17,8 +17,8 @@ code {
 
 .page-container {
   background-color: #F9F2DE;
-  height: 100vh;
-}
+  min-height: 100vh;
+} 
 
 :root {
   --color_primary: #144D3A; 
