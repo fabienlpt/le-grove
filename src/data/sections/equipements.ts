@@ -21,5 +21,6 @@ export const equipements = {
             title: 'Sensibilisation',
             desc: 'Informez et sensibilisez les participants sur les objectifs de l\'événement éco-responsable. Mettez en avant les initiatives mises en place, expliquez les choix de mobilier et de décoration, et encouragez activement la participation au tri des déchets. La sensibilisation contribue à créer une culture durable et à susciter l\'engagement en faveur de l\'éco-responsabilité.'
         }
-    ]
+    ],
+    conclusion: ''
 }

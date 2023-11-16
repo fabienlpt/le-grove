@@ -59,5 +59,6 @@ export const restauration = {
                 }
             ]
         }
-    ]
+    ],
+    conclusion: ''
 }

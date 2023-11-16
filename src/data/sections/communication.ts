@@ -69,5 +69,6 @@ export const communication = {
                 }
             ]
         }
-    ]
+    ],
+    conclusion: ''
 }

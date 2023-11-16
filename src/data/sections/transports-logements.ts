@@ -9,5 +9,6 @@ export const transportsLogements = {
     ],
     datas: [
         'TODO: add content'
-    ]
+    ],
+    conclusion: ''
 }

@@ -25,5 +25,6 @@ export const goodies = {
             title: 'Evaluation continue',
             desc: 'Après l\'événement, évaluez l\'efficacité des goodies éco-responsables en termes d\'engagement et d\'impact environnemental. Collectez des retours des participants pour améliorer la sélection de goodies lors des prochains événements Cette boucle de rétroaction permet d\'ajuster constamment les pratiques pour maximiser l\'impact positif tout en répondant aux attentes des participants.'
         }
-    ]
+    ],
+    conclusion: ''
 }

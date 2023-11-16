@@ -25,5 +25,6 @@ export const gererDechets = {
             title: 'Collecte et Traitement',
             desc: 'Collaboration avec des Entreprises de Gestion des Déchets : Travailler avec des entreprises spécialisées dans la gestion des déchets peut garantir une collecte et un traitement appropriés. Don et Recyclage : Identifiez les opportunités de don pour les articles réutilisables et assurez-vous que les matériaux recyclables sont effectivement recyclés.'
         }
-    ]
+    ],
+    conclusion: ''
 }
