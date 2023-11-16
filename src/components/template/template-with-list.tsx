@@ -6,9 +6,6 @@ interface TemplateWithListProps {
 }
 
 const TemplateWithList: React.FC<TemplateWithListProps> = (props) => {
-    React.useEffect(() => {
-        console.log(props.content);
-    }, []);
     return (
         <ul className='template template-list'>
             {
