@@ -13,15 +13,15 @@
 .first_bloc_footer {
     display: flex;
     justify-content: space-between;
-    margin: 0 10vw;
+    margin: 0 7vw;
     padding: 2vw 0 0 0;
     border-bottom: solid #C5FACC;
     border-width: 1px;
     height: 15vw;
 }
 .footer_cita {
-    font-size: 2.5vw;
-    width: 30vw ;
+    font-size: 1.5vw;
+    width: 55vw !important;
     margin-top: 0;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .second_bloc_footer {
-    margin: 5% 10vw;
+    margin: 3% 7vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -46,15 +46,15 @@
 
 .style_event {
     background-image: url(../../../public/Union.svg);
-    background-size: 20vw;
+    background-size: 21vw;
     background-position-y: -0.015em;
     background-repeat: no-repeat;
     width: 35vw;
     height: 8vw;
     display: inline-block;
     color: #144D3A;
-    margin-left: -2vw;
-    padding-left : 2vw;
+    margin-left: -3vw;
+    padding-left : 3vw;
 }
 
 .contact, .doc, .missions {
