@@ -31,7 +31,35 @@ const Documentation: React.FC = () => {
                         currentElementData?.content.title
                     }
                 </h1>
+                <div className='description'>
+                    {
+                        currentElementData?.content.description.map((element, index) => {
+                            return (
+                                <p key={index}>
+                                    {element}
+                                    <br />
+                                </p>
+                            );
+                        })
+                    }
+                </div>
+                <div className='content-container'>
+                    {
+                        currentElementData?.content.type === 'list' ?
+                            <TemplateWithList content={currentElementData.content} />
+                        : currentElementData?.content.type === 'table' ?
+                            <TemplateWithTable content={currentElementData.content} />
+                        : currentElementData?.content.type === 'subsections' ?
+                            <TemplateWithSubSection content={currentElementData.content} />
+                        : null
+                    }
+                </div>
+                <p className='conclusion'>
+                    {
+                        currentElementData?.content.conclusion
 
+                    }
+                </p>
             </div>
         </div>
     );

@@ -1,7 +1,11 @@
 import React from 'react';
 import './style.css';
 
-const TemplateWithSubSection: React.FC = () => {
+interface TemplateWithSubSectionProps {
+    content: any;
+}
+
+const TemplateWithSubSection: React.FC<TemplateWithSubSectionProps> = (props) => {
     return (
         <div className='template'>
             ceci est une sous section

@@ -1,7 +1,11 @@
 import React from 'react';
 import './style.css';
 
-const TemplateWithTable: React.FC = () => {
+interface TemplateWithTableProps {
+    content: any;
+}
+
+const TemplateWithTable: React.FC<TemplateWithTableProps> = (props) => {
     return (
         <div className='template'>
             ceci est un tableau

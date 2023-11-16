@@ -1,3 +1,35 @@
 .content {
     margin-left: 30vw;
+    padding: 0 50px;
+}
+
+.content .title {
+    color: var(--bg1, #144D3A);
+    font-family: Bricolage Grotesque 48pt;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 54px */
+}
+
+.content .description {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+
+.content .description p {
+    margin-bottom: 20px;
+}
+.parent-element {
+    color: var(--bg1, #144D3A);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    text-transform: uppercase;
 }

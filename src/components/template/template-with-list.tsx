@@ -1,11 +1,26 @@
 import React from 'react';
 import './style.css';
 
-const TemplateWithList: React.FC = () => {
+interface TemplateWithListProps {
+    content: any;
+}
+
+const TemplateWithList: React.FC<TemplateWithListProps> = (props) => {
+    React.useEffect(() => {
+        console.log(props.content);
+    }, []);
     return (
-        <div className='template'>
-            ceci est une liste
-        </div>
+        <ul className='template template-list'>
+            {
+                props.content.datas?.map((element: any, index: number) => {
+                    return (
+                        <li key={index}>
+                            {element}
+                        </li>
+                    );
+                })
+            }
+        </ul>
     );
 }
 
