@@ -69,10 +69,16 @@
     
 }
 
-/* .onglets a {
-    transition: transform 2s ease-in-out;
+.onglets {
+    display: flex;
+    flex-direction: row;
 }
 
-.onglets a :hover {
-    transform: rotate(30deg);
-} */
+.onglets a {
+    transition: transform 0.3s ease-in-out;
+}
+
+.onglets a:hover {
+    transform: rotate(-20deg);
+    transition: transform 0.3s ease-in-out;
+}
